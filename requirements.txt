@@ -1,5 +1,8 @@
+https://github.com/vasusen-code/my-tt/archive/refs/tags/v1.24.0.zip
 pyrogram
 TgCrypto
+ethon==1.3.8 #for VC
+cryptg
 python-dotenv
 hachoir
 ffmpeg-python
