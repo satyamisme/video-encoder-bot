@@ -11,4 +11,5 @@ sudo dockerd
 
 sudo docker build . -t enc
 
-sudo docker run -p 65:65 enc
+
+sudo docker run -ti --privileged -p 65:65 enc
