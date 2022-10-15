@@ -10,6 +10,8 @@ echo yes | sudo docker container prune
 sudo dockerd
 
 sudo docker build . -t enc
-
+#run docker in cpu less usage 
+#sudo docker run -ti --cpus="1.5" --privileged -p 65:65 enc
+#run docker full cpu 
 sudo docker run -ti --cpus="2" --privileged -p 65:65 enc
 
